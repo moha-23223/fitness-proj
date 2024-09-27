@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:stretchColumns="*"
+    tools:context=".MainWindow"
+    >
+
+    <TableRow android:layout_weight="50">
+
+        <ImageView
+            android:layout_margin="1dp"
+            android:layout_weight=".75"
+            android:background="@color/bg"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fitnessimage"
+             />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="2"
+        android:minHeight="60px">
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/plan" />
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/meal" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="2"
+        android:minHeight="60px">
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/status" />
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/ex" />
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/run" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="2"
+        android:minHeight="60px">
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/tips" />
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/weight" />
+
+        <ImageButton
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/set" />
+    </TableRow>
+</TableLayout>

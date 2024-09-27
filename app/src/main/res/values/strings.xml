@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FitnessProj</string>
+    <string name="login">Username</string>
+    <string name="pass">Password</string>
+    <string name="log_in">Login</string>
+    <string name="reg">Registration</string>
+    <string name="exists">User already exists</string>
+    <string name="start">Start</string>
+    <string name="Stop">Stop</string>
+    <string name="Pause">Pause</string>
+    <string name="invalid">Invalid username or password</string>
+</resources>
